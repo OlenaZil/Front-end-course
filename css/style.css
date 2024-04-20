@@ -1,0 +1,441 @@
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #351F21;
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px;
+    grid-auto-rows: auto;
+    
+}
+
+nav {
+    background-color:#989EC3;
+    height: 70px;
+    padding: 10px 80px 0 80px; 
+}
+.logo{
+    height: 80%
+}
+.sort_label,
+.sort__item{
+    display: inline;
+    padding: 0 24px 0 32px;
+    margin: 0 32px  0 64px;
+    line-height: 3rem;
+    text-decoration: none;
+    color: white;
+    align-content: center;
+    font-weight: 400;
+}
+.sort__item:hover {
+border-bottom: 5px solid white;
+}
+.basket{
+    display: inline-flex;
+    height: 30%;
+    width: auto;
+    float: right;
+    margin-top: 24px;
+    margin-bottom: 0;
+    
+}
+.basket:hover{
+    border: 2px solid white ;
+    padding: 10px;
+}
+.hapiness {
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: center;
+     
+}
+
+h2 {
+    font-size: 28px;
+}
+.orange_flowers{
+    width: 30%;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    float: right; 
+}
+.orange_flowers_mob{
+    display: none;
+}
+.hapiness__btn {
+    padding: 10px 42px 10px 42px;
+    margin-top: 24px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    color: #A9BFE4 ;
+    background-color: white;
+    border:solid #F2C2C7;
+    border-radius: 25px;
+}
+.hapiness__btn:hover {
+    background-color: #F2C2C7;
+    color: white;
+    box-shadow: 0 5px 10px 5px grey;
+    
+}
+
+.flowers_container{
+    clear: both;
+}
+.flowers__items{
+    display: inline;
+    position: relative;
+    padding-bottom: 10px; 
+    margin-left: 150px;
+}
+.flowers__img {
+   width: 300px;
+   height: 200px;
+       
+}
+.flowers__btn {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#A9BFE4;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.about_us_container{
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    clear: both;
+      
+}
+  
+.about_us__item {
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 0;
+    text-align: left;
+    
+}
+.about_us_img {
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    width: 35%;
+    height: 300px;
+    padding: 100px 0 100px 300px;
+    background-image: url("../img/abstract_background.png");
+    background-position: right;
+    background-size: 75%; 
+    background-repeat: no-repeat;
+}
+
+#section_three {
+    display: flex;
+    background-color: #A9BFE4;
+    opacity: 0.8;
+    font-style: bald;
+    white-space: pre-line;
+    height: 200px;
+    clear: both;
+    flex-wrap: wrap;
+
+}
+.work_for_title {
+    display: inline;
+    padding-left: 100px;
+
+
+}
+.work_for_color {
+  display: flex;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  padding: 50px 180px 0 24px;
+  text-align: center;
+  text-align-last: center;
+}
+.work_for_color img {
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.work_for_color_text {
+    position: absolute;
+    top: 90%;
+    right: 10%;
+}
+
+.container_price{
+    display: flex;
+    padding-left: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.title_flowers_list{
+    display: block;
+    color: #989EC3;
+    width: 100%;
+    height: 62px;
+    margin-left: 100px;
+    margin-top: 100px;
+       
+}
+.flowers_list {
+    float: left;
+    text-align: center;
+    margin: 48px;
+    font-size: 18px;
+    box-shadow: 0 0 10px 3px #FFC2C7;
+}
+.flowers_list img {
+    display: block;
+    height: 300px;
+}
+.flowers_list:hover{
+    box-shadow: 0 0 10px 3px grey;
+}
+
+#section_five{
+    display: inline-block;
+    background-color: aliceblue;
+    white-space: pre-line;
+    width: 100%;
+    background-image: url("../img/flowers\ 3.png");
+    background-position: right 15% bottom 85%;
+    background-size: 200px; 
+    background-repeat: no-repeat;
+    padding-left: 100px;
+
+}
+#section_five img {
+    height: 100px;
+    width: 100px; 
+    float: inline-start;
+    
+}
+
+.first_review{
+    display: inline-block;
+    padding-left: 150px;
+    padding-right: 50px;
+    text-align: left;
+    /* width: 100%; */
+    padding-left: 150px;
+  
+}
+.second_review{
+    display: block;
+    padding-left: 400px;
+    padding-right: 50px;
+    text-align: left;
+    background-image:  url("../img/flowers\ 2.png");      
+    background-position: left -25px bottom 5%;
+    background-size: 200px; 
+    background-repeat: no-repeat;
+
+}
+.review_text{
+    width: fit-content;
+    margin-left: 150px;
+   
+}
+.review_name{
+    color: #989EC3;
+    font-size: bald;
+    margin-left: 150px;
+
+}
+
+#name, #review, #email {
+    width: 1300px;
+    padding-left: 25px;
+    line-height: 3;
+    border-radius: 25px;
+    border-block: none;
+    
+
+}
+#review{
+  height: 100px;
+
+}
+
+#footer {
+    display: inline-block ;
+    background-color: #989EC3;
+    color: white;
+    padding: 12px 200px 24px 100px;
+ 
+}
+
+#footer_logo{
+    display: block;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    float: center;
+
+}
+.footer_info {
+    display: block;
+    padding: 0 150px 0 0;
+}
+#footer_info_one, #footer_info_two, #footer_info_three{
+    width: 20%;
+    float: left;
+    line-height: 1;  
+}
+.burger {
+    display: none;
+}
+.burger_bar{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .container{
+        grid-template-rows: auto;
+             
+    } 
+    
+    .burger{
+        display: inline-block;
+        margin: 0;
+    }
+    .sort.open .sort_label
+    .sort.open  .sort__item{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .orange_flowers {
+        display: none;
+    }
+    .orange_flowers_mob{
+        display: inline-block;
+        padding: 0;        
+    }
+    .sort_label,
+    .sort__item{
+        display: none;
+    }
+    .hapiness {
+        width: 100%;
+        margin-left: 20%;  
+    }
+
+    .flowers__img {
+    position: relative;
+        
+    }
+    .flowers__btn {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;       
+    }
+
+    .about_us_container{
+         height: fit-content;
+    }
+    .about_us__item{
+        position: relative;
+    }
+    
+    .about_us__item_text{
+        width: 100%;
+        clear: both;
+     }
+    .about_us_img {
+        width: 100%;
+        padding: 100px 0 100px 100px;
+     
+    }
+
+    #section_three {  
+        margin-top: 100px;
+        height: max-content;
+    }
+    .work_for_title {
+        padding-left: 50px;
+   }
+    
+     .container_price{
+        display: block;
+        padding-left: 50px;
+        justify-content: space-between;
+        flex-wrap: nowrap; 
+        
+    }
+    .title_flowers_list{
+        height: fit-content;
+        margin-left: 50px;
+        margin-top: 50px;
+        
+    }
+    
+
+    #section_five{
+      background-position: left 25px;
+        height: fit-content;
+     }
+   
+    .first_review{
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+   
+    }
+    .second_review{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .review_text{
+        width: fit-content;
+        margin-left: 50px;
+    
+    }
+    .review_name{
+        margin-left: 50px;
+
+    }
+
+    #name, #review, #email {
+        width: auto;
+    
+    }
+    #review{
+    height: 100px;
+
+    }
+
+    #footer {
+        padding: 12px 20px 24px 10px;
+    
+    }
+
+    .footer_info {
+       padding: 0 50px 0 0;
+    }
+}
